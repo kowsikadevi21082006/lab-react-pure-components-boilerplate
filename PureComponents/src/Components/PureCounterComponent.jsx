@@ -26,7 +26,7 @@ export default class PureCounterComponent extends Component {
   render() {
     return (
       <div><hr />
-      <h1>Pure Counter</h1>
+      <h1>Pure Component</h1>
       <h3>{this.state.count}</h3>
       <button onClick={this.changeToggle} style={{ backgroundColor: this.state.toggle ? "green" : "red" }}>Toggle</button>
       <button onClick={this.increaseCount}>Counter</button>

@@ -27,7 +27,7 @@ export default class SimpleCounterComponent extends Component {
         return (
             <div>
                 <hr />
-                <h1>Simple Counter</h1>
+                <h1>Simple Component</h1>
                 <h3>{this.state.count}</h3>
                 <button onClick={this.changeToggle} style={{ backgroundColor: this.state.toggle ? "green" : "red" }}>Toggle</button>
                 <button onClick={this.increaseCount}>Counter</button>
